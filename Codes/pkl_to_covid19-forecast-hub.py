@@ -36,7 +36,7 @@ def preparedf(USNwkaheadinccase,forecasttype,forecastdate):
     USNwkaheadinccaseOUT = USNwkaheadinccaseOUT.reindex(columns=['location','target','type','quantile','forecast_date','target_end_date','value'])
     return USNwkaheadinccaseOUT
     
-    try:
+try:
     del USNwkaheadinccase
     del USNwkaheadincdeath
     del USNwkaheadcumdeath
